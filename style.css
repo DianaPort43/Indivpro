@@ -1,1 +1,489 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --shadow:0 1px 5px rgba(104,104,104,0.8);
+    --gray-color:#ddd;
+}
+a{
+    text-decoration: none;
+}
+button{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border: none;
+}
+div{
+    display: inline-block;
+}
+.container{
+    padding: 36px;
+    background-color: #ccc;
+}
+.versia{
+    font-size: 20px;
+    margin: 12px;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+.versia a{
+    color: black;
+}
+.versia a:hover{
+    color: rgb(35, 63, 61);
+}
+.imp-vis{
+    width: 50px;
+}
+
+/* header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+.header-div{
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    color: black;
+    background-color: #ddd;
+}
+.header-div:hover{
+    background-color: black;
+    color: #ddd;
+}
+
+/* first section style */
+.first-section{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+.img-back{
+    background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    background-size: cover;
+    height: auto;
+    padding: 48px;
+    color: white;
+    width: 66%;
+    margin: 12px;
+}
+.img-back-head{
+    font-size: 56px;
+    margin-bottom: 0;
+    display: flex;
+}
+.img-back-subhead{
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.aside{
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    color: black;
+    background-color: #ddd;
+    height: 300px;
+    margin: 12px;
+    padding: 18px;
+}
+.price-head{
+    margin-bottom: 40px;
+}
+.price{
+    font-size: 40px;
+}
+/*  Section-second style  */
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 24px 32px;
+    margin: 8px;
+    width: 20%;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    color: black;
+    background-color: #ddd;
+}
+.icon{
+    width: 70px;
+}
+
+/*  Third section style  */
+.third-section{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12px;
+    color: black;
+    background-color: #ddd;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    display: flex;
+    flex-direction: row;
+}
+.img-third{
+    width: 25%;
+}
+.third-section-header{
+    font-size: 24px;
+}
+.third-section-btn{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border: none;
+}
+.third-section-text{
+    width: 70%;
+    margin: 12px;
+}
+/* 4section style */
+.fourth-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.fourthimg{
+    width: 11%;
+    margin: 6px;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+}
+
+ /* Footer style  */
+footer{
+    text-align: center;
+    padding: 24px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 32px;
+}
+
+
+@media screen and (max-width:768px){
+    .header-div{
+        width: 46%;
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .img-back{
+        width: auto;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .right{
+        width: 98%;
+        flex-direction: row;
+    }
+    .aside{
+        width: 48%;
+    }
+    .card{
+        width: 35%;
+    }
+    .fourthimg{
+        width: 22%;
+    }
+    .img-third{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .header-div{
+        width: auto;
+        margin: 12px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .img-back{
+        width: auto;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .aside{
+        width: auto;
+    }
+    .card{
+        width: auto;
+    }
+    .img-third{
+        width: 70%;
+    }
+    .fourthimg{
+        width: auto;
+    }
+}
+
+:root{
+    --shadow:0 1px 5px rgba(104,104,104,0.8);
+    --gray-color:#ddd;
+}
+a{
+    text-decoration: none;
+}
+button{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border: none;
+}
+div{
+    display: inline-block;
+}
+.container-imp{
+    padding: 36px;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.versia{
+    font-size: 20px;
+    margin: 12px;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+.versia a{
+    color: black;
+}
+.versia a:hover{
+    color: rgb(35, 63, 61);
+}
+.imp-vis{
+    width: 50px;
+}
+
+/* header style */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+.header-div-imp{
+    width: 23%;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    color: black;
+    background-color: #fff;
+}
+.header-div:hover{
+    background-color: black;
+    color: #ddd;
+}
+
+/* first section style */
+.first-section{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+.img-back-imp{
+    background-color: black;
+    background-size: cover;
+    height: auto;
+    padding: 48px;
+    color: white;
+    width: 66%;
+    margin: 12px;
+}
+.img-back-head{
+    font-size: 56px;
+    margin-bottom: 0;
+    display: flex;
+}
+.img-back-subhead{
+    font-size: 24px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+.aside-imp{
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    color: black;
+    background-color: white;
+    height: 200px;
+    margin: 12px;
+    padding: 18px;
+}
+.price-head{
+    margin-bottom: 40px;
+}
+.price{
+    font-size: 40px;
+}
+/*  Section-second style  */
+.second-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-imp{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 24px 32px;
+    margin: 8px;
+    width: 20%;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    color: black;
+    background-color: #fff;
+}
+.icon{
+    width: 70px;
+}
+
+/*  Third section style  */
+.third-section-imp{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 12px;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(104,104,104,0.8);
+    display: flex;
+    flex-direction: row;
+}
+.img-third{
+    width: 25%;
+}
+.third-section-header{
+    font-size: 24px;
+}
+.third-section-btn{
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    border: none;
+}
+.third-section-text{
+    width: 70%;
+    margin: 12px;
+}
+ /* Footer style  */
+footer{
+    text-align: center;
+    padding: 24px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 32px;
+}
+
+
+@media screen and (max-width:768px){
+    .header-div{
+        width: 46%;
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .img-back{
+        width: auto;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .right{
+        width: 98%;
+        flex-direction: row;
+    }
+    .aside{
+        width: 48%;
+    }
+    .card{
+        width: 35%;
+    }
+    .fourthimg{
+        width: 22%;
+    }
+    .img-third{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:450px){
+    .header-div{
+        width: auto;
+        margin: 12px;
+    }
+    header{
+        flex-direction: column;
+    }
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .img-back{
+        width: auto;
+    }
+    .first-section{
+        flex-direction: column;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .aside{
+        width: auto;
+    }
+    .card{
+        width: auto;
+    }
+    .img-third{
+        width: 70%;
+    }
+    .fourthimg{
+        width: auto;
+    }
+}
 
